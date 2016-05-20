@@ -1,0 +1,10 @@
+initial render time:
+lookup default rates for each state in the rates array (which will be empty except for US Avg)
+pass down state change handler function
+
+onChange
+check our rates object (did we look it up already?)
+if it's not there, get rate data from API
+put the new data in the rates object
+...
+recalculate
